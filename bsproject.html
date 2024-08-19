@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap5 project</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav class="navbar navbar-expand-md">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span><i class="fas fa-bars navbar-icon"></i></span>
+            </button>
+            <a class="navbar-brand" href="#">
+              <img
+                class="img"
+                src="https://thumbs.dreamstime.com/b/e-learning-logo-vector-concept-online-center-graduation-illustration-flat-design-abstract-background-education-97659237.jpg"
+                alt="logo"
+              />
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-center text-md-left"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-center text-md-left" href="#about-me"
+                    >About Me</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link text-center text-md-left dropdown-toggle"
+                    href="#tutorial"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Tutorials
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#free-tutorial"
+                        >Free Tutorials</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#new"
+                        >Newly Arrival Tutorials</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#paid-tutorial"
+                        >Paid Tutorials</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-center text-md-left"
+                    href="#contact"
+                    aria-disabled="true"
+                    >Contact
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-center text-md-left" href="#feedback"
+                    >Feedback</a
+                  >
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <section id="banner">
+          <div
+            class="banner-container d-flex justify-content-center align-items-center"
+          >
+            <div class="banner-contents text-center">
+              <h1 class="font-weight-bolder text-white mb-5">
+                Learn Something new !!
+              </h1>
+              <button
+                class="btn btn-dark me-3 btn-lg"
+                onclick="location.href='#tutorial'"
+              >
+                <i class="fas fa-play me-2"></i>Tutorials
+              </button>
+              <button
+                class="btn btn-danger btn-lg"
+                onclick="window.open('https://www.youtube.com/@rowae-learningplatform4244')"
+                class="request-callback"
+              >
+                <i class="fab fa-youtube me-2"></i>Subscribe
+              </button>
+            </div>
+          </div>
+        </section>
+      </header>
+
+      <!-- feature starts here -->
+
+      <main>
+        <section id="features" class="text-center">
+          <div class="row">
+            <div class="col-lg-4 d-block d-lg-flex">
+              <div class="features-col">
+                <i
+                  class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"
+                ></i>
+                <h5 class="font-weight-bolder">Free to Use</h5>
+                <p>
+                  It is completely free to use.As a beginner you can get some of
+                  our facilities & it is fully safe n secured.Each of the
+                  tutorials are very useful and we provide the best lessons that
+                  anyone can understand.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 d-block d-lg-flex">
+              <div class="features-col">
+                <i
+                  class="fa-brands fa-free-code-camp fa-3x icon-style rounded-circle"
+                ></i>
+                <h5 class="font-weight-bolder">Easy to Learn</h5>
+                <p>
+                  Each and every teachers of our platform is friendly and expert
+                  in their subjects.They help our customers to complete their
+                  lessons with intractive,planning & easier way.After every
+                  lessons,we also take mock test to enhance your knowledge
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 d-block d-lg-flex">
+              <div class="features-col">
+                <i
+                  class="fa-solid fa-paper-plane fa-3x icon-style rounded-circle"
+                ></i>
+                <h5 class="font-weight-bolder">Fast Response</h5>
+                <p>
+                  We provide 24/7 services and fast response to our customers.If
+                  you face any kinds of difficulties,our team is there for you
+                  with proper guildline.So feel free to ask any kinds of
+                  questions & we will gladly like to solve that.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- feature ends here -->
+
+        <!-- about me starts here -->
+        <section id="about-me">
+          <div class="section-title">
+            <h3 class="text-center">About Me</h3>
+            <hr class="hr-style mx-auto" style="border-color: black" />
+          </div>
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="basic-desc text-lg-left">
+                <i class="icon-style rounded-circle far fa-user fa-2x"></i>
+                <h5 class="font-weight-bolder">Personal Info</h5>
+                <p>Name : Afnan Sultan Trino</p>
+                <p>Profession : Student</p>
+                <p>Current Address : Kuratoli,Kuril Bisshoroad,Dhaka</p>
+                <p>
+                  Website :
+                  <a
+                    href="https://www.youtube.com/@rowae-learningplatform4244"
+                    target="blank"
+                    >www.e-learning.com</a
+                  >
+                </p>
+                <p><button class="btn btn-outline-dark">Download CV</button></p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-7"></div>
+            <div class="col-lg-5">
+              <div class="achieve-desc text-lg-left">
+                <i class="icon-style rounded-circle fas fa-trophy fa-2x"></i>
+                <h5 class="font-weight-bolder">Achievements</h5>
+                <p>
+                  <span>100% Tution Waiver :</span>Based on excellent result in
+                  Bachelor's period obtaining CGPA 4 out of 4
+                </p>
+                <br />
+                <p>
+                  <span>Chancellor Award :</span>Based on great leadership &
+                  several Dean's list in Bachelor's period
+                </p>
+                <br />
+                <p>
+                  <span>Extra Curricular Activities :</span>1.Best Poster Award
+                  in Physics Poster Presentation 2024(AIUB)
+                </p>
+                <p>
+                  2.Best Mentor in ACS (AIUB Course Solution) from 2025-2027
+                </p>
+                <p>3.Runner Up in Hackathon in 2026</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="edu-desc text-lg-left">
+                <i
+                  class="icon-style rounded-circle fa-solid fa-graduation-cap fa-2x"
+                ></i>
+                <h5 class="font-weight-bolder">Education</h5>
+                <p><span>Secondary School Certificate (SSC):</span></p>
+                <p>Institution : Military Collegiate School Khulna</p>
+                <p>Group : Science</p>
+                <p>Passing Year : 2020</p>
+                <p>Result : 5.00</p>
+                <br />
+                <p><span>Higher Secondary School Certificate (HSC):</span></p>
+                <p>Institution : Military Collegiate School Khulna</p>
+                <p>Group : Science</p>
+                <p>Passing Year : 2022</p>
+                <p>Result : 5.00 with Scholarship</p>
+                <br />
+                <p>
+                  <span>B.Sc in Computer Science & Engineering (CSE):</span>
+                </p>
+                <p>
+                  Institution : American International University
+                  Bangladesh(AIUB)
+                </p>
+                <p>Passing Year : 2027</p>
+                <p>Result : 4.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-7"></div>
+            <div class="col-lg-5">
+              <div class="achieve-desc text-lg-left">
+                <i class="icon-style rounded-circle fas fa-briefcase fa-2x"></i>
+                <h5 class="font-weight-bolder">Experience</h5>
+                <p>
+                  <span>Mentorship in ACS(AIUB Course Solution) :</span> Mentor
+                  in ACS from 2025-2027
+                </p>
+                <p>
+                  Subject : Discrete Mathematics,Data Structure &
+                  Algorithms,Object Oriented Programming
+                </p>
+                <br />
+                <p>
+                  <span>Mentorship in BD-Tutor :</span>Private Tutor from
+                  2025-2027
+                </p>
+                <br />
+                <p>
+                  <span>Study Material Provider in E-Shikhon :</span>Work as a
+                  Provider in study materials in E-Shikhon online platform form
+                  2026-2027
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="skill-desc text-lg-left">
+                <i
+                  class="icon-style rounded-circle fa-solid fa-gears fa-2x"
+                ></i>
+                <h5 class="font-weight-bolder">Skills</h5>
+                <table>
+                  <tr>
+                    <td>HTML</td>
+                    <td>
+                      <span class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>CSS</td>
+                    <td>
+                      <span class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>JavaScript</td>
+                    <td>
+                      <span class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                        <i class="far fa-star"></i>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>C++</td>
+                    <td>
+                      <span class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Bootstrap</td>
+                    <td>
+                      <span class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>React</td>
+                    <td>
+                      <span class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </span>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- about me ends here -->
+
+        <!-- tutorials starts here -->
+        <section id="free-tutorial">
+          <div class="section-title">
+            <h3 class="text-center">Tutorials</h3>
+            <hr class="hr-style mx-auto" style="border-color: black" />
+          </div>
+          <div class="row text-center mb-3">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card mb-5 mt-lg-2">
+                <img
+                  class="card-img-top"
+                  src="https://essaycorp.com/blog/uploads/Side-Hustle.webp"
+                  alt="discrete math img"
+                />
+                <div class="card-body text-center">
+                  <h3 class="card-title font-weight-bolder">
+                    Introduction to Discrete Mathematics
+                  </h3>
+                  <p>
+                    Discrete Mathematics  is one of the fundamental course for
+                    Computer Science students.Through this core concept, you can
+                    enhance your critical thinking abilities.In this tutorial,we will cover .
+                    <a href="#demo"data-bs-toggle="collapse">Learn more</a>
+                    <div id="demo"  class="collapse">
+                    <p>about the
+                    basics topics of discrete math such as
+                    set,function,matrix,logical functions etc.After that,we will
+                    began to advance level such as Euler theorem,Circuit
+                    theory,Binary Search Tree(BST),Graph Theory etc.</p>
+                    </div>
+                  </p>
+                  <a
+                    href="https://www.youtube.com/watch?v=XjVI32_OXgc"
+                    
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card mb-5 m-lg-0">
+                <img
+                style="height: 196px;"
+                  class="card-img-top"
+                  src="https://www.analytixlabs.co.in/blog/wp-content/uploads/2022/06/data-structures-cover.jpeg"
+                  alt="discrete math img"
+                />
+                <div class="card-body text-center">
+                  <h3 class="card-title font-weight-bolder">
+                    Introduction to Data Structure
+                  </h3>
+                  <p>
+                    Data Structure is known as "the heart of the Programming Language"
+                    If you want to build strong idea about how to analyse & solve problems,Data
+                    Structure is a must.In this tutorial,we will cover .
+                    <a href="#demo"data-bs-toggle="collapse">Learn more</a>
+                    <div id="demo"  class="collapse">
+                    <p>about the
+                    basics topics of discrete math such as
+                    array,stack,queues,hash,lists etc.After that,we will
+                    began to advance level such as N-Queen,Sieves
+                    theory,Binary Search Tree(BST),Graph Theory etc.</p>
+                    </div>
+                  </p>
+                  <a
+                    href="https://www.youtube.com/watch?v=XjVI32_OXgc"
+                    class="stretched-link"
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card mb-5 m-lg-0">
+                <img id="new"
+                style="height: 160px;"
+                  class="card-img-top"
+                  style="height: 195px"
+                  src="https://m.media-amazon.com/images/I/51hmMMuWRDL.jpg"
+                  alt="discrete math img"/><button class="btn btn-dark">Newly Arrival</button>
+                <div class="card-body text-center">
+                  <h3 class="card-title font-weight-bolder">
+                    Algorithm Design & Analysis
+                  </h3>
+                  <p>
+                    Algorithm  is one of the Core course for
+                    Every Programmer.Through this core concept, you can
+                    enhance your critical thinking abilities as well as how to
+                    solve a problem.In this tutorial,we will cover .
+                    <a href="#demo"data-bs-toggle="collapse">Learn more</a>
+                    <div id="demo"  class="collapse">
+                    <p>about the
+                    basics topics of discrete math such as
+                    set,function,matrix,logical functions etc.After that,we will
+                    began to advance level such as Euler theorem,Circuit
+                    theory,Binary Search Tree(BST),Graph Theory etc.</p>
+                    </div>
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card mb-5 m-lg-0">
+                <img id="paid-tutorial"
+                  style="height: 187px"
+                  class="card-img-top"
+                  src="data:image/png;base64,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"
+                  alt="discrete math img"
+                />
+                <div class="card-body text-center">
+                  <h3 class="card-title font-weight-bolder">
+                    Object Oriented Programming(Java)
+                  </h3>
+                  <p>
+                    Discrete Mathematics is one of the fundamental course for
+                    Computer Science Students.Through this knowledge you can
+                    enhance your critical thinking abilities as well as how to
+                    solve a problem.In this tutorial,we will cover about the
+                    basics topics of discrete math such as
+                    set,function,matrix,logical functions etc.After that,we will
+                    began to advance level such as Euler theorem,Circuit
+                    theory,Binary Search Tree(BST),Graph Theory etc.
+                  </p>
+                  <button class="btn btn-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
+                      <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2m3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2"/>
+                    </svg>
+                    Paid Tutorial</button>
+                  <a
+                    href="https://www.youtube.com/watch?v=XjVI32_OXgc"
+                    class="stretched-link"
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card mb-5 m-lg-0">
+                <img
+                  class="card-img-top"
+                  src="https://api.reliasoftware.com/uploads/web_development_is_important_176fa0618e.jpg"
+                  alt="discrete math img"
+                />
+                <div class="card-body text-center">
+                  <h3 class="card-title font-weight-bolder">
+                    Introduction to Web-Development
+                  </h3>
+                  <p>
+                    Discrete Mathematics is one of the fundamental course for
+                    Computer Science Students.Through this knowledge you can
+                    enhance your critical thinking abilities as well as how to
+                    solve a problem.In this tutorial,we will cover about the
+                    basics topics of discrete math such as
+                    set,function,matrix,logical functions etc.After that,we will
+                    began to advance level such as Euler theorem,Circuit
+                    theory,Binary Search Tree(BST),Graph Theory etc.
+                  </p>
+                  <button class="btn btn-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
+                      <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2m3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2"/>
+                    </svg>
+                    Paid Tutorial</button>
+                  <a
+                    href="https://www.youtube.com/watch?v=XjVI32_OXgc"
+                    
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card mb-5 m-lg-0">
+                <img
+                  style="height: 184px"
+                  class="card-img-top"
+                  src="https://media.geeksforgeeks.org/wp-content/uploads/20231110115359/Roadmap-to-Mern-stack-developer-copy-(3).webp"
+                  alt="discrete math img"
+                />
+                <div class="card-body text-center">
+                  <h3 class="card-title font-weight-bolder">
+                    Complete Roadmap for MERN Stack Developer
+                  </h3>
+                  <p>
+                    Discrete Mathematics is one of the fundamental course for
+                    Computer Science Students.Through this knowledge you can
+                    enhance your critical thinking abilities as well as how to
+                    solve a problem.In this tutorial,we will cover about the
+                    basics topics of discrete math such as
+                    set,function,matrix,logical functions etc.After that,we will
+                    began to advance level such as Euler theorem,Circuit
+                    theory,Binary Search Tree(BST),Graph Theory etc.
+                  </p>
+                  <button class="btn btn-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
+                      <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2m3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2"/>
+                    </svg>
+                    Paid Tutorial</button>
+                  <a
+                    href="https://www.youtube.com/watch?v=XjVI32_OXgc"
+                    class="stretched-link"
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- tutorials ends here -->
+
+        <!-- feedback starts here -->
+
+        <section id="feedback">
+          <div class="section-title">
+            <h3 class="text-center text-white">Feedback</h3>
+            <hr class="hr-style mx-auto" style="color: white" />
+          </div>
+          <div class="row">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <p>
+                    1. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Impedit quasi ex laborum similique saepe temporibus quos
+                    aperiam corporis, maiores laudantium. Voluptatibus, ut
+                    asperiores! Illum architecto quisquam atque voluptatem nisi
+                    nulla.
+                  </p>
+                  <img
+                    class="rounded-circle feedback-img"
+                    src="received_980243623584720.jpeg"
+                    alt="image"
+                  />
+                  <h6>Afnan Sultan Trino</h6>
+                </div>
+                <div class="carousel-item">
+                  <p>
+                    2. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Impedit quasi ex laborum similique saepe temporibus quos
+                    aperiam corporis, maiores laudantium. Voluptatibus, ut
+                    asperiores! Illum architecto quisquam atque voluptatem nisi
+                    nulla.
+                  </p>
+                  <img
+                    class="rounded-circle feedback-img"
+                    src="https://watermark.lovepik.com/photo/20211125/large/lovepik-laptop-for-male-university-students-picture_501004944.jpg"
+                    alt="image"
+                  />
+                  <h6>Icchigo Kurosaki</h6>
+                </div>
+                <div class="carousel-item">
+                  <p>
+                    3. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Impedit quasi ex laborum similique saepe temporibus quos
+                    aperiam corporis, maiores laudantium. Voluptatibus, ut
+                    asperiores! Illum architecto quisquam atque voluptatem nisi
+                    nulla.
+                  </p>
+                  <img
+                    class="rounded-circle feedback-img"
+                    src="https://img.freepik.com/premium-photo/young-girl-student-smiling-against-university_101969-611.jpg"
+                    alt="image"
+                  />
+                  <h6>Nezuko Chan</h6>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- feedback ends here -->
+
+        <!-- contact me starts here -->
+
+        <section id="contact">
+          <div class="section-title">
+            <h3 class="text-center text-white">Contact</h3>
+            <hr class="hr-style mx-auto" />
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <form
+                action="mailto:asultantrino@gmail.com"
+                method="post"
+                enctype="text/plain"
+                class="was-validated"
+              >
+                <div class="form-group text-white">
+                  <label for="fullname">Full Name :</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="fullname"
+                    required
+                  />
+                  <div class="valid-feedback">valid</div>
+                  <div class="invalid-feedback" style="color: red">
+                    Enter full name before submiting the form
+                  </div>
+                </div>
+
+                <div class="form-group text-white mt-2">
+                  <label for="email">E-mail :</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    required
+                  />
+                </div>
+
+                <div class="form-group text-white mt-2">
+                  <label for="message">Message :</label>
+                  <textarea
+                    style="resize: none"
+                    name=""
+                    id=""
+                    class="form-control"
+                    cols="30"
+                    rows="4"
+                  ></textarea>
+                </div>
+                <div class="form-group mt-3 text-center">
+                  <input
+                    type="submit"
+                    class="btn btn-success me-3"
+                    value="submit"
+                  />
+                  <input type="reset" class="btn btn-danger" value="reset" />
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <!-- contact me ends here -->
+      </main>
+
+      <footer>
+        <div class="row text-white">
+          <div class="col-lg-6 text-center text-lg-left mb-3 mb-lg-0">
+            <p class="mb-0 mt-1">&copy;Copyright Afnan Sultan Trino</p>
+          </div>
+          <div class="col-lg-6 text-center text-lg-right">
+            <a href="#">Home</a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

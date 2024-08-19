@@ -1,0 +1,214 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "IM Fell Double Pica", serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Kaushan Script", cursive;
+}
+.section-title h3 {
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+.hr-style {
+  border: 5px solid white;
+  border-bottom: none;
+  width: 180px;
+}
+/* header starts here */
+header {
+  background-image: url("pexels-julia-m-cameron-4144923.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar {
+  padding: 1% 7%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.navbar-icon {
+  color: antiquewhite;
+}
+.navbar-brand img {
+  width: 60px;
+  height: auto;
+}
+.nav-link {
+  color: antiquewhite;
+  margin: 10px;
+  border-radius: 5px;
+  transition: 0.4s;
+  font-size: 1.1rem;
+}
+.nav-link:hover {
+  background-color: rgb(225, 12, 12);
+  color: white;
+  transform: scale(1.1);
+}
+.banner-container {
+  height: 100vh;
+}
+.banner-container h1 {
+  font-size: 3.9rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+/* header ends here */
+.img {
+  width: 100px;
+}
+
+/* features starts here */
+#features {
+  padding: 5% 10%;
+  background-color: #ffc470;
+}
+.features-col {
+  border: 1px solid #973131;
+  padding: 15px;
+  margin: 20px 0;
+  transition: 0.4s;
+  background-color: #973131;
+  color: white;
+  box-shadow: 2px 6px 4px rgb(15, 15, 15);
+}
+.features-col:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 6px 5px rgb(5, 5, 5);
+}
+.icon-style {
+  background-color: #ffc94a;
+  padding: 15px;
+  margin: 5px 0;
+  color: white;
+}
+
+/* features ends here */
+
+/* about me starts here */
+#about-me {
+  padding: 4% 10%;
+  background-color: #6f4e37;
+  color: antiquewhite;
+}
+#about-me a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: black;
+}
+#about-me a:hover {
+  color: #ffc94a;
+  text-decoration: underline;
+}
+#about-me h5 {
+  font-size: 1.4rem;
+}
+#about-me p {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+.achieve-desc span {
+  font-weight: 700 !important;
+  color: #ffc94a;
+}
+.star i {
+  width: 20px;
+  color: white;
+}
+.edu-desc span {
+  font-weight: 700 !important;
+  color: #ffc94a;
+}
+
+/* about me ends here */
+
+/* tutorial starts here */
+#free-tutorial {
+  padding: 4% 10%;
+  background-color: #697565;
+}
+.card {
+  transition: 0.4s;
+  border: 1px solid;
+}
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 6px 5px black;
+}
+.card-body {
+  background-color: rgb(4, 79, 117);
+  color: white;
+}
+
+/* tutorial ends here */
+
+/* feedback starts here */
+
+#feedback {
+  padding: 5%;
+  background-color: rgb(1, 6, 39);
+}
+.carousel-item {
+  text-align: center;
+  padding: 7% 15%;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: white;
+}
+.carousel-item h6 {
+  font-size: 1.5rem;
+}
+.feedback-img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 5px;
+}
+
+/* feedback ends here */
+
+/* contact starts here */
+
+#contact {
+  padding: 2% 10%;
+  background-color: rgb(24, 23, 23);
+}
+.form-group label {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+/* contact ends here */
+
+/* footer starts here */
+
+footer {
+  padding: 1% 10%;
+  background-color: black;
+}
+footer a {
+  color: white;
+  margin: 0 10px;
+  transition: 0.4s;
+}
+footer a:hover {
+  transform: scale(1.1);
+  color: #ffc94a;
+}
+
+/* footer ends here */
+
+@media (max-width: 778px) {
+  .nav-link {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .banner-container h1 {
+    font-size: 1.5rem;
+  }
+}
